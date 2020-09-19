@@ -1,0 +1,28 @@
+apt-get							Package Handling Utility
+									-> retrieval of packages from SOURCE(PPA)
+									-> get info about package
+									-> install/remove/update package
+	update						Retrieve new lists of packages from PPA
+	upgrade						Perform an upgrade on all upgradle packages
+	install [package_name]		Install new packages
+	remove [package_name]		Remove packages
+	autoremove					Remove automatically all unused packages
+	dist-upgrade - Distribution upgrade, see apt-get(8)
+	dselect-upgrade - Follow dselect selections
+	build-dep - Configure build-dependencies for source packages
+	clean						Erase downloaded archive files
+	autoclean					Erase old downloaded archive files
+	check						Verify that there are no broken dependencies
+
+
+
+apt list 
+	--upgradable				Show all upgradable packages
+apt-cache
+	depends [package_name]		Show raw dependency information for a package
+	rdepends [package_name]		Show reverse dependency information for a package
+	show [package_name]			Show a readable record for the package
+	pkgnames					List the names of all packages in the system
+	policy						Show policy settings
+									Shows all PPA(Personal Package Archives) with priority
+											
