@@ -1,1 +1,12 @@
+Issue: 	Microsoft Outllok is failed to load
+	A pop saying 'C:\User\[Username]\AppData\Local\Microsoft\Outlook\[Outlook_email].ost' cannot be opened
 
+Workaround:
+Method 1: Renaming .ost and .nst file
+	-> Rename .ost and .nst file file 
+	-> Try to launch oulook again
+
+Method 2: Creating new profile
+	-> Goto 
+		Control Panel -> Mails -> Show Profile -> Create New Profile -> Change 'Always use this profile' to the newly created profile. Apply changes and click OK.
+	-> Launch Outlook. Outlook Should open now. It will take some  time to create a local copy of mails. Time to store local copy of mails varies dependending on size of mails and bandwidth.
